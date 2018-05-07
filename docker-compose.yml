@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  deck:
+    build:
+      context: .
+    image: deck.js:latest
